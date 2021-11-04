@@ -11,6 +11,7 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    width: 100vw;
 }
 a {
     text-decoration: none;
@@ -28,6 +29,7 @@ img {
 /* header */
 .header {
     padding-top: 40px;
+    margin-bottom: 110px;
 }
 .header_wrapper {
     display: flex;
@@ -98,6 +100,7 @@ img {
     position: absolute;
     width: 100%;
     display: none;
+    background-color: #fff;
     overflow: hidden;
     height: 0px;
     transition: .3s;
@@ -108,7 +111,13 @@ img {
 
 /* main */
 .main {
-    min-height: calc(100vh - 206px);
+    min-height: calc(100vh - 316px);
+    position: relative;
+}
+.bg-shape {
+    position: absolute;
+    height: 100%;
+    width: auto;
 }
 
 /* footer */
