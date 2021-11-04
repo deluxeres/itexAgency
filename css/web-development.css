@@ -47,7 +47,20 @@
 .card-block:nth-child(3) {
     border-bottom: 1px solid #f2f3f6;
     border-left: 1px solid #f2f3f6;
-}  
+}
+.card-block:nth-child(4) {
+    border-top: 1px solid #f2f3f6;
+    border-right: 1px solid #f2f3f6;
+}
+.card-block:nth-child(5) {
+    border-top: 1px solid #f2f3f6;
+    border-right: 1px solid #f2f3f6;
+    border-left: 1px solid #f2f3f6;
+}
+.card-block:nth-child(5) {
+    border-top: 1px solid #f2f3f6;
+    border-left: 1px solid #f2f3f6;
+}   
 .card-name {
     font-size: 16;
     font-weight: 600;
