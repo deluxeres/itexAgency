@@ -292,6 +292,7 @@
     border: 0;
     border-radius: 10px;
     margin-left: 30px;
+    cursor: pointer;
 }
 .footer-form__input {
     width: 370px;
@@ -313,4 +314,14 @@
     justify-content: center;
     display: flex;
 }
-
+.hero-container {
+    display: flex;
+    justify-content: center;
+}
+.hero {
+    margin-bottom: 170px;
+}
+.bg-shape {
+    top: 0px;
+    right: -100px
+}
