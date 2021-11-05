@@ -11,10 +11,14 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    width: 100vw;
 }
 a {
     text-decoration: none;
     color: #000;
+}
+li {
+    list-style-type: none;
 }
 img {
     max-width: 100%;
@@ -28,6 +32,7 @@ img {
 /* header */
 .header {
     padding-top: 40px;
+    margin-bottom: 110px;
 }
 .header_wrapper {
     display: flex;
@@ -98,6 +103,7 @@ img {
     position: absolute;
     width: 100%;
     display: none;
+    background-color: #fff;
     overflow: hidden;
     height: 0px;
     transition: .3s;
@@ -108,7 +114,17 @@ img {
 
 /* main */
 .main {
-    min-height: calc(100vh - 206px);
+    min-height: calc(100vh - 316px);
+    background-image: url(../img/bg-dots.png);
+    background-repeat: no-repeat;
+    position: left;
+}
+.bg-shape {
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+    max-width: none;
+    max-height: none;
 }
 
 /* footer */
@@ -122,10 +138,10 @@ img {
     color: #ffffff;
 }
 
-@media (min-width: 1450px) {
+@media (min-width: 1570px) {
     .container-hero {
         width: 1352px;
-        margin: auto;
+        position: absolute;
     }
 }
 @media (max-width: 1250px) {
