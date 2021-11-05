@@ -12,6 +12,7 @@ $('.hero__slider').slick({
 });
 
 $('.expertise-slider').slick({
+    arrows: false,
     dots: true,
     infinite: true,
     speed: 300,

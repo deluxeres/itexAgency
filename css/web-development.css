@@ -210,6 +210,7 @@
 }
 .our-expertise {
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 .expertise-page__title {
     font-size: 24px;
@@ -249,3 +250,67 @@
 .expertise-slider {
     width: 1170px;
 }
+.slick-dots {
+    width: 70px;
+    display: flex;
+    position: static;
+    margin: 0 auto;
+}
+.form__block {
+    width: 100%;
+    justify-content: center;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 20px 40px rgb(11 38 84 / 5%);
+}
+.form-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #2F2F2F;
+    display: block;
+    margin-bottom: 22px;
+}
+.form-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #99A3A9;
+    display: block;
+}
+.form__header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.footer-form__button {
+    width: 170px;
+    height: 54px;
+    background: #4582EC;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.footer-form__input {
+    width: 370px;
+    height: 54px;
+    background: transparent;
+    color: #99A3A9;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 10px;
+    border: 1px solid #EBEBEB;
+    padding-left: 30px;
+}
+.footer-form__input input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.form-block__inner {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
