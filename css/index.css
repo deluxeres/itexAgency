@@ -31,7 +31,11 @@
     color: #4582EC;
 }
 .hero__freelance {
+    display: none;
+}
+.hero .hero__freelance {
     display: flex;
+    justify-content: space-between;
 }
 .hero__freelance_item {
     padding: 20px;
@@ -39,41 +43,79 @@
     border-radius: 6px;
     background-color: #fff;
 }
-.hero__freelance_item:first-child {
-    margin-right: 30px;
-}
 .hero__freelance_anchor {
     margin-right: 20px;
 }
 .hero__slider {
     width: 625px;
-    height: 532px;
+
+    margin-right: 40px;
 }
 .hero__slider-item {
     width: 625px;
-    height: 532px;
     display: block;
 }
-.slick-dots button {
-    font-size: 0px;
-    width: 18px;
-    height: 18px;
-    background-color: #D2E1FC;
-    border-radius: 50%;
-    border: 4px solid #fff !important;
-    cursor: pointer;
-    border: none;
+@media (max-width: 1570px) {
+    .hero .hero__freelance {
+        flex-direction: column;
+    }
+    .hero .hero__freelance_item {
+        width: 280px;
+    }
 }
-.slick-dots > li {
-    margin: auto;
+@media (max-width: 1250px) {
+    .hero {
+        margin-bottom: 50px;
+    }
+    .hero-text {
+        width: 400px
+    }
+    .hero__slider {
+        width: 300px
+    }
+    .hero__title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .hero__anchor {
+        font-size: 24px;
+        line-height: 48px;
+    }
+    .hero .hero__freelance {
+        display: none;
+    }
+    .hero__freelance {
+        display: flex;
+    }
+    .slick-dots {
+        top: 100px;
+    }
 }
-.slick-dots > button:last-child {
-    margin-bottom: 0;
-}
-.slick-active button {
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    border: 4px solid #4582EC !important;
-    background-color: #fff;
+@media (max-width: 767px) {
+    .hero {
+        flex-direction: column;
+    }
+    .hero-text {
+        width: 600px;
+        margin: auto;
+    }
+
+    .hero__title {
+        font-size: 20px;
+    }
+    .hero__anchor {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .hero__freelance {
+        flex-direction: column;
+    }
+    .hero__slider {
+        margin: auto;
+        width: 325px;
+    }
+    .slick-dots {
+        top: -160px;
+        right: 0;
+    }
 }
