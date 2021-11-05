@@ -1,3 +1,6 @@
+.our-services {
+    margin-bottom: 100px;
+}
 .section-title {
     font-family: Poppins;
     font-size: 26px;
@@ -47,10 +50,202 @@
 .card-block:nth-child(3) {
     border-bottom: 1px solid #f2f3f6;
     border-left: 1px solid #f2f3f6;
-}  
+}
+.card-block:nth-child(4) {
+    border-top: 1px solid #f2f3f6;
+    border-right: 1px solid #f2f3f6;
+}
+.card-block:nth-child(5) {
+    border-top: 1px solid #f2f3f6;
+    border-right: 1px solid #f2f3f6;
+    border-left: 1px solid #f2f3f6;
+}
+.card-block:nth-child(5) {
+    border-top: 1px solid #f2f3f6;
+    border-left: 1px solid #f2f3f6;
+}   
 .card-name {
     font-size: 16;
     font-weight: 600;
     color: #2F2F2F;
     padding-top: 28px;
+}
+.rewiev-top {
+    font-size: 24px;
+    font-weight: 600;
+    color: #6A9BF0;
+    margin-bottom: 9px;
+}
+.review-topdown {
+    font-size: 26px;
+    font-weight: 700;
+    color: #2F2F2F;
+}
+.reviews__text {
+    color: #99A3A9;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+}
+.reviews-slider {
+    margin-top: 51px;
+}
+.reviews_header {
+    text-align: center;
+}
+.user__block-review {
+    width: 470px;
+    justify-content: center;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 20px 40px rgb(11 38 84 / 5%);
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    display: flex;
+}
+.slider-blocks__reviews {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 70px;
+}
+.user-review__text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #99A3A9;
+    line-height: 180%;
+    margin-bottom: 15px;
+}
+.review-author-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2F2F2F;
+}
+.user-work {
+    font-size: 14px;
+    font-weight: 400;
+    color: #99A3A9;
+}
+.container-block-reviews {
+    display: flex;
+}
+.review-user-work {
+    display: flex;
+    justify-content: space-between;
+}
+.user-reviws__info {
+    width: 100px;
+}
+.tech-skills {
+    margin-top: 100px;
+}
+.skills-section-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #2F2F2F;
+    margin-bottom: 32px;
+}
+.skills-description {
+    color: #99A3A9;
+    font-size: 16px;
+    line-height: 180%;
+    margin-bottom: 51px;
+}
+.skills-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skill-title {
+    color: #2F2F2F;
+    font-size: 16px;
+    font-weight: 500;
+    height: 0;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    transition: ease all 0.3s;
+}
+.skill-subtitle {
+    height: 0;
+    overflow: hidden;
+    display: block;
+    font-size: 10px;
+    font-weight: 400;
+    color: #99A3A9;
+    transition: ease all 0.3s;
+}
+.skill-block {
+    padding: 8px 15px 17px 15px;
+    width: 170px;
+    height: 140px;
+    border-radius: 15px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: default;
+}
+.image-skills img {
+    height: 60px;
+    display: block;
+    margin: auto;
+    transition: ease all 0.3s;
+}
+.skill-block:hover .skill-title {
+    height: 29px;
+}
+.skill-block:hover .skill-subtitle {
+    height: 50px;
+}
+.skill-block:hover .image-skills>img {
+    height: 34px;
+}
+.skill-block:hover {
+    flex-direction: column;
+    box-shadow: 0px 20px 40px rgba(11, 38, 84, 0.05);
+}
+.our-expertise {
+    margin-top: 100px;
+}
+.expertise-page__title {
+    font-size: 24px;
+    color: #6A9BF0;
+    font-weight: 600;
+}
+.expertise-page__subtitle {
+    font-size: 26px;
+    font-weight: 700;
+    color: #2F2F2F;
+    margin-bottom: 77px;
+}
+.expertise {
+    text-align: center;
+}
+.expertise-block {
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 195px;
+    transition: 0.3s;
+}
+.expertise-block:hover {
+    box-shadow: 0px 20px 40px rgba(11, 38, 84, 0.05);
+}
+.expertise-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1170px;
+}
+.expertise-block:nth-child(5) img {
+    opacity: 0.5;
+}
+.expertise-slider {
+    width: 1170px;
 }

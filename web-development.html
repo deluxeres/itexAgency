@@ -8,6 +8,12 @@
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/web-development.css">
+
+    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="js/burger.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 <body>
     <!-- header -->
@@ -45,6 +51,39 @@
                             <span class="header__contacts-mail_text">itexagency@gmail.com</span>
                         </a>
                     </div>
+                </div>
+                <div class="header__burger_button" id="burger-button">
+                    <img src="img/header/burger-menu.svg" alt="menu" class="header__burger_img">
+                    <img src="img/header/close.svg" alt="close" class="header__burger_close">
+                </div>
+            </div>
+            <div class="header__burger">
+                <nav class="header__nav">
+                    <a href="#" class="header__nav-item_wrapper">
+                        <span class="header__nav-item_text">Vacanciess</span>
+                    </a>
+                    <a href="#" class="header__nav-item_wrapper">
+                        <span class="header__nav-item_text">Portfolio</span>
+                    </a>
+                    <a href="#" class="header__nav-item_wrapper">
+                        <span class="header__nav-item_text">About us</span>
+                    </a>
+                    <a href="#" class="header__nav-item_wrapper">
+                        <span class="header__nav-item_text">Contact us</span>
+                    </a>
+                    <a href="#" class="header__nav-item_wrapper header__nav-item_general">
+                        <span class="header__nav-item_text">Itex Academy</span>
+                    </a>
+                </nav>
+                <div class="header__contacts_wrapper">
+                    <a href="tel:0631234567" class="header__contacts-phone">
+                        <img src="img/header/phone.svg" alt="phone" class="header__contacts-phone_img">
+                        <span class="header__contacts-phone_text">063 123 45 67</span>
+                    </a>
+                    <a href="mailto:itexagency@gmail.com" class="header__contacts-mail">
+                        <img src="img/header/mail.svg" alt="phone" class="header__contacts-mail_img">
+                        <span class="header__contacts-mail_text">itexagency@gmail.com</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -99,6 +138,356 @@
                 </div>
             </div>
         </section>
+        <!-- Clients Feedback -->
+        <section class="clients-feedback">
+            <div class="reviews">
+                <div class="container">
+                    <div class="reviews_header">
+                        <div class="rewiev-top">
+                            <span>Testimonials</span>
+                        </div>
+                        <div class="review-topdown">
+                            <span>Clients Feedback</span>
+                        </div>
+                        <div class="reviews__text">
+                            <span>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews-slider">
+                <div class="slider-blocks__reviews">
+                    <div class="user__block-review">
+                        <div class="container-block-reviews">
+                            <div class="user-reviws__info">
+                                <div class="image-user__reviews">
+                                    <img src="img/web-development/slider-reviews/1.png" alt="user_avatar">
+                                </div>
+                            </div>
+                            <div class="user-reviev">
+                                <div class="user-review__text">
+                                    <span>
+                                        Ut enim ad minim veniam, quis nostrud <br>
+                                        exercitation ullamco laboris nisi ut <br>
+                                        aliquip ex ea commodo consequat.
+                                    </span>
+                                </div>
+                                <div class="review__info">
+                                    <div class="review-author-name">
+                                        <span>Roy D. Campos</span>
+                                    </div>
+                                    <div class="review-user-work">
+                                        <div class="user-work">
+                                            <span>Safety engineer</span>
+                                        </div>
+                                        <div class="review-icon">
+                                            <img src="img/web-development/slider-reviews/icon.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user__block-review">
+                        <div class="container-block-reviews">
+                            <div class="user-reviws__info">
+                                <div class="image-user__reviews">
+                                    <img src="img/web-development/slider-reviews/2.png" alt="user_avatar">
+                                </div>
+                            </div>
+                            <div class="user-reviev">
+                                <div class="user-review__text">
+                                    <span>
+                                        Ut enim ad minim veniam, quis nostrud <br>
+                                        exercitation ullamco laboris nisi ut <br>
+                                        aliquip ex ea commodo consequat.
+                                    </span>
+                                </div>
+                                <div class="review__info">
+                                    <div class="review-author-name">
+                                        <span>Rebecca W. Gilbert</span>
+                                    </div>
+                                    <div class="review-user-work">
+                                        <div class="user-work">
+                                            <span>Science technician</span>
+                                        </div>
+                                        <div class="review-icon">
+                                            <img src="img/web-development/slider-reviews/icon.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user__block-review">
+                        <div class="container-block-reviews">
+                            <div class="user-reviws__info">
+                                <div class="image-user__reviews">
+                                    <img src="img/web-development/slider-reviews/3.png" alt="user_avatar">
+                                </div>
+                            </div>
+                            <div class="user-reviev">
+                                <div class="user-review__text">
+                                    <span>
+                                        Ut enim ad minim veniam, quis nostrud <br>
+                                        exercitation ullamco laboris nisi ut <br>
+                                        aliquip ex ea commodo consequat.
+                                    </span>
+                                </div>
+                                <div class="review__info">
+                                    <div class="review-author-name">
+                                        <span>William V. Lynch</span>
+                                    </div>
+                                    <div class="review-user-work">
+                                        <div class="user-work">
+                                            <span>Assignment editor</span>
+                                        </div>
+                                        <div class="review-icon">
+                                            <img src="img/web-development/slider-reviews/icon.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user__block-review">
+                        <div class="container-block-reviews">
+                            <div class="user-reviws__info">
+                                <div class="image-user__reviews">
+                                    <img src="img/web-development/slider-reviews/4.png" alt="user_avatar">
+                                </div>
+                            </div>
+                            <div class="user-reviev">
+                                <div class="user-review__text">
+                                    <span>
+                                        Ut enim ad minim veniam, quis nostrud <br>
+                                        exercitation ullamco laboris nisi ut <br>
+                                        aliquip ex ea commodo consequat.
+                                    </span>
+                                </div>
+                                <div class="review__info">
+                                    <div class="review-author-name">
+                                        <span>Jean R. Jeffords</span>
+                                    </div>
+                                    <div class="review-user-work">
+                                        <div class="user-work">
+                                            <span>electronics engineering technician</span>
+                                        </div>
+                                        <div class="review-icon">
+                                            <img src="img/web-development/slider-reviews/icon.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tech-skills">
+            <div class="skills">
+                <div class="container">
+                    <div class="skills-section-title">
+                        <span>technology (skills)</span>
+                    </div>
+                    <div class="skills-description">
+                        <span>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                             laboris nisi ut aliquip ex ea commodo consequat. 
+                        </span>
+                    </div>
+                    <div class="skills-blocks">
+                        <div class="skill-block">
+                            <div class="image-skills">
+                                <img src="img/web-development/skills icon/react.png" alt="react">
+                            </div>
+                            <span class="skill-title">React js</span>
+                            <span class="skill-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </span>
+                        </div>
+                        <div class="skill-block">
+                            <div class="image-skills">
+                                <img src="img/web-development/skills icon/symfony.svg" alt="symfony">
+                            </div>
+                            <span class="skill-title">Symfony</span>
+                            <span class="skill-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </span>
+                        </div>
+                        <div class="skill-block">
+                            <div class="image-skills">
+                                <img src="img/web-development/skills icon/wp.svg" alt="wp">
+                            </div>
+                            <span class="skill-title">WordPress</span>
+                            <span class="skill-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </span>
+                        </div>
+                        <div class="skill-block">
+                            <div class="image-skills">
+                                <img src="img/web-development/skills icon/magento.svg" alt="magento">
+                            </div>
+                            <span class="skill-title">Magento</span>
+                            <span class="skill-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </span>
+                        </div>
+                        <div class="skill-block">
+                            <div class="image-skills">
+                                <img src="img/web-development/skills icon/python.png" alt="python">
+                            </div>
+                            <span class="skill-title">Python</span>
+                            <span class="skill-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </span>
+                        </div>
+                        <div class="skill-block">
+                            <div class="image-skills">
+                                <img src="img/web-development/skills icon/PostgreSQL.png" alt="sql">
+                            </div>
+                            <span class="skill-title">PostgreSQL</span>
+                            <span class="skill-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </span>
+                        </div>
+                        <div class="skill-block">
+                            <div class="image-skills">
+                                <img src="img/web-development/skills icon/google.svg" alt="google">
+                            </div>
+                            <span class="skill-title">Google Ads</span>
+                            <span class="skill-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </span>
+                        </div>
+                        <div class="skill-block">
+                            <div class="image-skills">
+                                <img src="img/web-development/skills icon/share.png" alt="share">
+                            </div>
+                            <span class="skill-title">ShareThis</span>
+                            <span class="skill-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </span>
+                        </div>
+                        <div class="skill-block">
+                            <div class="image-skills">
+                                <img src="img/web-development/skills icon/pr.svg" alt="pr">
+                            </div>
+                            <span class="skill-title">PR</span>
+                            <span class="skill-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </span>
+                        </div>
+                        <div class="skill-block">
+                            <div class="image-skills">
+                                <img src="img/web-development/skills icon/pupl.png" alt="pupl">
+                            </div>
+                            <span class="skill-title">Figma</span>
+                            <span class="skill-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </span>
+                        </div>
+                        <div class="skill-block">
+                            <div class="image-skills">
+                                <img src="img/web-development/skills icon/shopify.svg" alt="shopify">
+                            </div>
+                            <span class="skill-title">Shopify</span>
+                            <span class="skill-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </span>
+                        </div>
+                        <div class="skill-block">
+                            <div class="image-skills">
+                                <img src="img/web-development/skills icon/adobe.svg" alt="adobe">
+                            </div>
+                            <span class="skill-title">Adobe Premiere</span>
+                            <span class="skill-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Our expertise -->
+        <section class="our-expertise">
+            <div class="expertise">
+                <div class="container">
+                    <div class="expertise-page__title">Our expertise</div>
+                    <div class="expertise-page__subtitle">Lorem ipsum dolor sit amet</div>
+
+                    <div class="expertise-slider">
+                        <div class="expertise-wrapper">
+                            <div class="expertise-block">
+                                <div class="expertise-logo">
+                                    <img src="img/web-development/slider-expertise/1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="expertise-block">
+                                <div class="expertise-logo">
+                                    <img src="img/web-development/slider-expertise/2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="expertise-block">
+                                <div class="expertise-logo">
+                                    <img src="img/web-development/slider-expertise/3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="expertise-block">
+                                <div class="expertise-logo">
+                                    <img src="img/web-development/slider-expertise/4.png" alt="">
+                                </div>
+                            </div>
+                            <div class="expertise-block">
+                                <div class="expertise-logo">
+                                    <img src="img/web-development/slider-expertise/5.png" alt="">
+                                </div>
+                            </div>
+                            <div class="expertise-block">
+                                <div class="expertise-logo">
+                                    <img src="img/web-development/slider-expertise/6.png" alt="">
+                                </div>
+                            </div>
+                            <div class="expertise-block">
+                                <div class="expertise-logo">
+                                    <img src="img/web-development/slider-expertise/7.png" alt="">
+                                </div>
+                            </div>
+                            <div class="expertise-block">
+                                <div class="expertise-logo">
+                                    <img src="img/web-development/slider-expertise/8.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="expertise-wrapper">
+                            <div class="expertise-block">
+                                <div class="expertise-logo">
+                                    <img src="img/web-development/slider-expertise/1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="expertise-block">
+                                <div class="expertise-logo">
+                                    <img src="img/web-development/slider-expertise/2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="expertise-block">
+                                <div class="expertise-logo">
+                                    <img src="img/web-development/slider-expertise/3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="expertise-block">
+                                <div class="expertise-logo">
+                                    <img src="img/web-development/slider-expertise/4.png" alt="">
+                                </div>
+                            </div>
+                            <div class="expertise-block">
+                                <div class="expertise-logo">
+                                    <img src="img/web-development/slider-expertise/5.png" alt="">
+                                </div>
+                            </div>
+                            <div class="expertise-block">
+                                <div class="expertise-logo">
+                                    <img src="img/web-development/slider-expertise/6.png" alt="">
+                                </div>
+                            </div>
+                            <div class="expertise-block">
+                                <div class="expertise-logo">
+                                    <img src="img/web-development/slider-expertise/7.png" alt="">
+                                </div>
+                            </div>
+                            <div class="expertise-block">
+                                <div class="expertise-logo">
+                                    <img src="img/web-development/slider-expertise/8.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!--  -->
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- footer -->
@@ -109,5 +498,9 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="libraries/slick.min.js"></script>
+    <script type="text/javascript" src="js/sliders.js"></script>
+    <script type="text/javascript" src="js/burger.js"></script>
 </body>
 </html>
