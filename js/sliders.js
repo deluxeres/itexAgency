@@ -9,3 +9,11 @@ $('.hero__slider').slick({
     vertical: true,
     // dotsClass: 'hero-slider__dots',
 });
+
+$('.expertise-slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+     adaptiveHeight: true
+});

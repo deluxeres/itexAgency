@@ -208,3 +208,44 @@
     flex-direction: column;
     box-shadow: 0px 20px 40px rgba(11, 38, 84, 0.05);
 }
+.our-expertise {
+    margin-top: 100px;
+}
+.expertise-page__title {
+    font-size: 24px;
+    color: #6A9BF0;
+    font-weight: 600;
+}
+.expertise-page__subtitle {
+    font-size: 26px;
+    font-weight: 700;
+    color: #2F2F2F;
+    margin-bottom: 77px;
+}
+.expertise {
+    text-align: center;
+}
+.expertise-block {
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 195px;
+    transition: 0.3s;
+}
+.expertise-block:hover {
+    box-shadow: 0px 20px 40px rgba(11, 38, 84, 0.05);
+}
+.expertise-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1170px;
+}
+.expertise-block:nth-child(5) img {
+    opacity: 0.5;
+}
+.expertise-slider {
+    width: 1170px;
+}
