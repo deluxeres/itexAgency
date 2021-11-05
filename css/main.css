@@ -112,12 +112,16 @@ img {
 /* main */
 .main {
     min-height: calc(100vh - 316px);
-    position: relative;
+    background-image: url(../img/bg-dots.png);
+    background-repeat: no-repeat;
+    position: left;
 }
 .bg-shape {
     position: absolute;
     height: 100%;
-    width: auto;
+    z-index: -1;
+    max-width: none;
+    max-height: none;
 }
 
 /* footer */
@@ -131,10 +135,10 @@ img {
     color: #ffffff;
 }
 
-@media (min-width: 1450px) {
+@media (min-width: 1570px) {
     .container-hero {
         width: 1352px;
-        margin: auto;
+        position: absolute;
     }
 }
 @media (max-width: 1250px) {
