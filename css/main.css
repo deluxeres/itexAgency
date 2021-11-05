@@ -107,9 +107,11 @@ img {
     overflow: hidden;
     height: 0px;
     transition: .3s;
+    z-index: 999;
 }
 .header__burger_active {
-    height: 431px;
+    height: 471px;
+    padding: 25px 25px 40px 25px;
 }
 
 /* main */
@@ -168,7 +170,8 @@ img {
         width: 728px;
     }
     .main {
-        min-height: calc(100vh - 202px);
+        min-height: calc(100vh - 316px);
+        background-image: none;
     }
     /* header */
     .header__contacts-phone_text {
@@ -208,12 +211,15 @@ img {
         width: 20px;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .container {
         width: 325px;
     }
 
     /* header */
+    .header {
+        margin-bottom: 67px;
+    }
     .header__nav-item_general {
         display: none;
     }
