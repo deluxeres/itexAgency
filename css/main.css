@@ -128,6 +128,31 @@ img {
     max-width: none;
     max-height: none;
 }
+.slick-dots {
+    position: absolute;
+    top: 200px;
+    right: -40px;
+}
+.slick-dots button {
+    font-size: 0px;
+    width: 18px;
+    height: 18px;
+    background-color: #D2E1FC;
+    border-radius: 50%;
+    border: 4px solid #fff !important;
+    cursor: pointer;
+    border: none;
+}
+.slick-dots > li {
+    margin: auto;
+}
+.slick-active button {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 4px solid #4582EC !important;
+    background-color: #fff;
+}
 
 /* footer */
 .footer {

@@ -7,7 +7,8 @@ $('.hero__slider').slick({
     autoplaySpeed: 10000, 
     arrows: false,
     vertical: true,
-    // dotsClass: 'hero-slider__dots',
+    swipe: true,
+    verticalSwiping: true,
 });
 
 $('.expertise-slider').slick({
