@@ -91,6 +91,11 @@
         top: 100px;
     }
 }
+@media (max-width: 968px) {
+    .hero {
+        flex-direction: row;
+    }
+}
 @media (max-width: 767px) {
     .hero {
         flex-direction: column;
