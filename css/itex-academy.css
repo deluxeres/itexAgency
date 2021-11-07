@@ -1,0 +1,340 @@
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.hero-container {
+    display: flex;
+    justify-content: center;
+}
+.bg-shape {
+    left: 0;
+    top: -149px;
+}
+.bg-shape-2 {
+   position: absolute;
+   left: 150px;
+}
+.hero {
+    margin-bottom: 140px;
+}
+.hero__title {
+    font-size: 36px;
+    font-family: 700;
+    color: #4582EC;
+}
+.web-basic-section {
+    margin-top: 60px;
+}
+.section-web-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #2F2F2F;
+    padding-left: 20px;
+    border-left: 6px solid #4582EC;
+}
+.card-order__container {
+    margin-top: 50px;
+}
+.work-register-block {
+    width: 100%;
+    height: 290px;
+    box-shadow: 0px 20px 40px rgba(11, 38, 84, 0.05);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px 0 40px;
+}
+.work-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #2F2F2F;
+    display: block;
+    margin-bottom: 14px;
+}
+.work-register__line {
+    display: flex;
+}
+.work-information {
+    width: 350px;
+}
+.work-register__date {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+.work-information {
+    margin-top: 14px;
+}
+.reg-block__icon {
+    margin-right: 10px;
+}
+.work-register-line__registration {
+    margin-top: 7px;
+}
+.when-reg {
+    font-size: 15px;
+    font-weight: 500;
+    color: #2F2F2F;
+    margin-right: 5px;
+}
+.when-reg-date {
+    font-size: 16px;
+    font-weight: 400;
+}
+.registration {
+    font-size: 15px;
+    font-weight: 500;
+    color: #2F2F2F;
+}
+.registration-text {
+    font-size: 16px;
+    font-weight: 400;
+}
+.work-registration {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.work-register__adress {
+    display: flex;
+    align-items: center;
+}
+.registration {
+    margin-right: 5px;
+}
+.work-register-button {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #4582EC;
+    border-radius: 4px;
+    color: #4582EC;
+    font-size: 14px;
+    font-weight: 400;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.work-register-button:hover {
+    background: #4582EC;
+    color: #fff;
+}
+.reg-work__btn {
+    margin-top: 30px;
+}
+.card-work__register {
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+.tab {
+    font-size: 16px;
+    font-weight: 600;
+    color: #99A3A9;
+    margin-right: 60px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.active {
+    color: #2F2F2F;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+}
+.tabs-wrapper-right {
+    width: 630px;
+}
+.tab-description {
+    margin-top: 37px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #99A3A9;
+}
+.parthership__title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #2F2F2F;
+    text-align: center;
+}
+.parthership__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #99A3A9;
+    text-align: center;
+}
+.parthership {
+    margin-top: 150px;
+}
+.expertise-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 1170px;
+}
+.expertise-block:nth-child(5) img {
+    opacity: 0.5;
+}
+.expertise-slider {
+    width: 1170px;
+}
+.slick-dots {
+    width: 70px;
+    display: flex;
+    position: static;
+    margin: 0 auto;
+}
+.expertise-block {
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 195px;
+    transition: 0.3s;
+}
+.resources__title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #2F2F2F;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.resources__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #99A3A9;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.learn-resources {
+    margin-top: 150px;
+}
+.btn-explore {
+    text-align: center;
+}
+.btn-explore a {
+    background-color: #4582EC;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 11px 28px 11px 28px;
+    transition: 0.3s;
+}
+.btn-explore a:hover {
+    background-color: #2a6de0;
+}
+.blog-section {
+    margin-top: 150px;
+}
+.blog-text {
+    width: 570px;
+}
+.blog-language {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.blog-coop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.blog-title {
+    display: block;
+    font-size: 26px;
+    font-weight: 700;
+    color: #2F2F2F;
+    margin-bottom: 32px;
+}
+.blog-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #99A3A9;
+}
+.portfolio__title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #2F2F2F;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.portfolio__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #99A3A9;
+    text-align: center;
+}
+.portfolio-slider-section {
+    margin-top: 80px;
+}
+.slider-section {
+    margin-top: 40px;
+}
+/*  */
+.portfolio-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.portfolio-block {
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.portfolio-logo {
+    margin: 0 20px 0 20px;
+}
+.slick-dots {
+    margin-top: 60px;
+}
+.feedback__title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #2F2F2F;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.feedback__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #99A3A9;
+    text-align: center;
+}
+.students-feedback {
+    margin-top: 150px;
+}
+.feedback-block {
+    display: flex;
+    width: 570px;
+    height: 220px;
+    box-shadow: 0px 20px 40px rgba(11, 38, 84, 0.05);
+    border-radius: 4px;
+    padding: 28px 0 28px 28px;
+}
+.user-name {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2F2F2F;
+}
+.user-job {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #99A3A9;
+}
+.feedback-user__text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #99A3A9;
+    width: 290px;
+    margin-bottom: 15px;
+}
+.feedback-user__img {
+    width: 100px;
+}
+.feedback-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

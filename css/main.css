@@ -10,6 +10,7 @@ html {
 }
 body {
     font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
     overflow-x: hidden;
     width: 100vw;
 }
