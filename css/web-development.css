@@ -93,51 +93,6 @@
 .reviews_header {
     text-align: center;
 }
-.user__block-review {
-    width: 470px;
-    justify-content: center;
-    height: 220px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    box-shadow: 0px 20px 40px rgb(11 38 84 / 5%);
-    margin-left: 10px;
-    margin-right: 10px;
-    align-items: center;
-    display: flex;
-}
-.slider-blocks__reviews {
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    margin-bottom: 70px;
-}
-.user-review__text {
-    font-size: 14px;
-    font-weight: 400;
-    color: #99A3A9;
-    line-height: 180%;
-    margin-bottom: 15px;
-}
-.review-author-name {
-    font-size: 16px;
-    font-weight: 600;
-    color: #2F2F2F;
-}
-.user-work {
-    font-size: 14px;
-    font-weight: 400;
-    color: #99A3A9;
-}
-.container-block-reviews {
-    display: flex;
-}
-.review-user-work {
-    display: flex;
-    justify-content: space-between;
-}
-.user-reviws__info {
-    width: 100px;
-}
 .tech-skills {
     margin-top: 100px;
 }
@@ -324,4 +279,53 @@
 .bg-shape {
     top: 0px;
     right: -100px
+}
+.reviews-user__name {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2F2F2F;
+}
+.reviews-user__job {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #99A3A9;
+}
+.reviews-user__text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #99A3A9;
+    margin-bottom: 15px;
+    line-height: 180%;
+}
+.reviews-block {
+    width: 470px;
+    height: 220px;
+    box-shadow: 0px 20px 40px rgba(11, 38, 84, 0.05);
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.reviews-container {
+    display: flex;
+    justify-content: center;
+}
+.reviews-user-block__footer {
+    display: flex;
+    justify-content: space-between;
+}
+.reviews-user-block__container {
+    width: 282px;
+}
+.reviews-user__img {
+    width: 85px;
+}
+.reviews-block:nth-child(1) {
+    opacity: 0.5;
+}
+.reviews-block:nth-child(4) {
+    opacity: 0.5;
 }

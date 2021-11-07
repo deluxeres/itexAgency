@@ -4,7 +4,7 @@ $('.hero__slider').slick({
     slidesToScroll: 1,
     dots: true,
     autoplay: true,
-    autoplaySpeed: 10000, 
+    autoplaySpeed: 5000, 
     arrows: false,
     vertical: true,
     swipe: true,
