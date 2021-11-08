@@ -111,10 +111,11 @@ $('.portfolio-slider').slick({
 })
 
 $('.reviews-slider').slick({
+    centerMode: true,
+    centerPadding: '180px',
     arrows: false,
     dots: true,
     infinite: true,
-    speed: 300,
-    slidesToShow: 1,
-     adaptiveHeight: true
+    slidesToShow: 3,
+    adaptiveHeight: true
 });
