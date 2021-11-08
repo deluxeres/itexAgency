@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Vacancies</title>
 
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/vacancies.css">
 </head>
 <body>
     <!-- header -->
@@ -84,7 +85,458 @@
 
     <!-- main -->
     <main class="main">
-        
+        <div class="container">
+            <div class="container-hero container">
+                <section class="hero">
+                    <div class="hero__text">
+                        <a href="" class="hero__back-btn">
+                            <img src="img/hero-arrow.svg" alt="&#8592;" class="hero__back-btn_img">
+                            <span class="hero__back-btn_text">Go Back</span>
+                        </a>
+                        <h1 class="hero__title">Vacancies</h1>
+                        <span class="hero__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        </span>
+                        <span class="hero__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </span>
+                    </div>
+                    <div class="hero__img_wrapper">
+                        <img src="img/portfolio/hero-img.png" alt="banner" class="hero__img_img">
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="container">
+            <section class="vacancies">
+                <h2 class="vacancies__title">Vacancies</h2>
+                <form action="#" class="vacancies__filter">
+                    <img src="img/vacancies/category.svg" alt="" class="vacancies__filter_select-img">
+                    <select name="categories" size="1" class="vacancies__filter_select">
+                        <option value="" selected>All Categories</option>
+                        <option value="">Software Engineering</option>
+                        <option value="">JavaScript</option>
+                        <option value="">Quality Assurance</option>
+                        <option value="">Automation</option>
+                    </select>
+                    <div class="vacancies__filter_select-border"></div>
+                    <img src="img/vacancies/map-point.svg" alt="" class="vacancies__filter_select-img">
+                    <select name="categories" size="1" class="vacancies__filter_select">
+                        <option value="" selected>All Locations</option>
+                        <option value="">Kyiv</option>
+                        <option value="">Lviv</option>
+                        <option value="">Remote</option>
+                        <option value="">Ternopil</option>
+                    </select>
+                    <div class="vacancies__filter_select-border"></div>
+                    <img src="img/vacancies/search.svg" alt="" class="vacancies__filter_select-img">
+                    <input type="text" placeholder="Search for Vacancies" class="vacancies__filter_input">
+                    <button type="submit" class="vacancies__filter_submit">Submint</button>
+                </form>
+                <div class="vacancies__list">
+                    <div class="vacancies__vacancy">
+                        <div class="vacancy__head">
+                            <h3 class="vacancy__title">Data Scientist</h3>
+                            <span class="vacancy__status">HOT</span>
+                        </div>
+                        <div class="vacancy__locations_wrapper">
+                            <img src="img/vacancies/map-point.svg" alt="" class="vacancy__locations_img">
+                            <span class="vacancy__locations_text">Ternopil, Ivano-Frankivsk, Lviv, Remote</span>
+                        </div>
+                        <div class="vacancy__categories_wrapper">
+                            <img src="img/vacancies/category.svg" alt="" class="vacancy__categories_img">
+                            <span class="vacancy__categories_text">Data Science</span>
+                        </div>
+                    </div>
+
+                    <div class="vacancies__vacancy">
+                        <div class="vacancy__head">
+                            <h3 class="vacancy__title">Senior Angular Developer</h3>
+                            <span class="vacancy__status">HOT</span>
+                        </div>
+                        <div class="vacancy__locations_wrapper">
+                            <img src="img/vacancies/map-point.svg" alt="" class="vacancy__locations_img">
+                            <span class="vacancy__locations_text">Ternopil, Ivano-Frankivsk, Lviv, Remote</span>
+                        </div>
+                        <div class="vacancy__categories_wrapper">
+                            <img src="img/vacancies/category.svg" alt="" class="vacancy__categories_img">
+                            <span class="vacancy__categories_text">Software Engineering, JavaScript</span>
+                        </div>
+                    </div>
+
+                    <div class="vacancies__vacancy">
+                        <div class="vacancy__head">
+                            <h3 class="vacancy__title">Senior Node.js Developer</h3>
+                            <span class="vacancy__status">HOT</span>
+                        </div>
+                        <div class="vacancy__locations_wrapper">
+                            <img src="img/vacancies/map-point.svg" alt="" class="vacancy__locations_img">
+                            <span class="vacancy__locations_text">Ternopil, Ivano-Frankivsk, Lviv, Remote</span>
+                        </div>
+                        <div class="vacancy__categories_wrapper">
+                            <img src="img/vacancies/category.svg" alt="" class="vacancy__categories_img">
+                            <span class="vacancy__categories_text">Software Engineering, JavaScript</span>
+                        </div>
+                    </div>
+
+                    <div class="vacancies__vacancy">
+                        <div class="vacancy__head">
+                            <h3 class="vacancy__title">Middle/Senior React Developer</h3>
+                            <span class="vacancy__status">HOT</span>
+                        </div>
+                        <div class="vacancy__locations_wrapper">
+                            <img src="img/vacancies/map-point.svg" alt="" class="vacancy__locations_img">
+                            <span class="vacancy__locations_text">Ternopil, Ivano-Frankivsk, Lviv, Remote</span>
+                        </div>
+                        <div class="vacancy__categories_wrapper">
+                            <img src="img/vacancies/category.svg" alt="" class="vacancy__categories_img">
+                            <span class="vacancy__categories_text">Data Science</span>
+                        </div>
+                    </div>
+
+                    <div class="vacancies__vacancy">
+                        <div class="vacancy__head">
+                            <h3 class="vacancy__title">Senior Data Engineer</h3>
+                            <span class="vacancy__status">HOT</span>
+                        </div>
+                        <div class="vacancy__locations_wrapper">
+                            <img src="img/vacancies/map-point.svg" alt="" class="vacancy__locations_img">
+                            <span class="vacancy__locations_text">Remote</span>
+                        </div>
+                        <div class="vacancy__categories_wrapper">
+                            <img src="img/vacancies/category.svg" alt="" class="vacancy__categories_img">
+                            <span class="vacancy__categories_text">Software Engineering, DB\BI</span>
+                        </div>
+                    </div>
+
+                    <div class="vacancies__vacancy">
+                        <div class="vacancy__head">
+                            <h3 class="vacancy__title">Middle Test Automation Engineer (Python)</h3>
+                            <span class="vacancy__status">HOT</span>
+                        </div>
+                        <div class="vacancy__locations_wrapper">
+                            <img src="img/vacancies/map-point.svg" alt="" class="vacancy__locations_img">
+                            <span class="vacancy__locations_text">Lviv, Kyiv, Remote</span>
+                        </div>
+                        <div class="vacancy__categories_wrapper">
+                            <img src="img/vacancies/category.svg" alt="" class="vacancy__categories_img">
+                            <span class="vacancy__categories_text">Quality Assurance, Automation</span>
+                        </div>
+                    </div>
+
+                    <div class="vacancies__vacancy">
+                        <div class="vacancy__head">
+                            <h3 class="vacancy__title">Data Scientist</h3>
+                            <span class="vacancy__status">HOT</span>
+                        </div>
+                        <div class="vacancy__locations_wrapper">
+                            <img src="img/vacancies/map-point.svg" alt="" class="vacancy__locations_img">
+                            <span class="vacancy__locations_text">Ternopil, Ivano-Frankivsk, Lviv, Remote</span>
+                        </div>
+                        <div class="vacancy__categories_wrapper">
+                            <img src="img/vacancies/category.svg" alt="" class="vacancy__categories_img">
+                            <span class="vacancy__categories_text">Data Science</span>
+                        </div>
+                    </div>
+
+                    <div class="vacancies__vacancy">
+                        <div class="vacancy__head">
+                            <h3 class="vacancy__title">Senior Angular Developer</h3>
+                            <span class="vacancy__status">HOT</span>
+                        </div>
+                        <div class="vacancy__locations_wrapper">
+                            <img src="img/vacancies/map-point.svg" alt="" class="vacancy__locations_img">
+                            <span class="vacancy__locations_text">Ternopil, Ivano-Frankivsk, Lviv, Remote</span>
+                        </div>
+                        <div class="vacancy__categories_wrapper">
+                            <img src="img/vacancies/category.svg" alt="" class="vacancy__categories_img">
+                            <span class="vacancy__categories_text">Software Engineering, JavaScript</span>
+                        </div>
+                    </div>
+
+                    <div class="vacancies__vacancy">
+                        <div class="vacancy__head">
+                            <h3 class="vacancy__title">Senior Node.js Developer</h3>
+                            <span class="vacancy__status">HOT</span>
+                        </div>
+                        <div class="vacancy__locations_wrapper">
+                            <img src="img/vacancies/map-point.svg" alt="" class="vacancy__locations_img">
+                            <span class="vacancy__locations_text">Ternopil, Ivano-Frankivsk, Lviv, Remote</span>
+                        </div>
+                        <div class="vacancy__categories_wrapper">
+                            <img src="img/vacancies/category.svg" alt="" class="vacancy__categories_img">
+                            <span class="vacancy__categories_text">Software Engineering, JavaScript</span>
+                        </div>
+                    </div>
+
+                    <div class="vacancies__vacancy">
+                        <div class="vacancy__head">
+                            <h3 class="vacancy__title">Middle/Senior React Developer</h3>
+                            <span class="vacancy__status">HOT</span>
+                        </div>
+                        <div class="vacancy__locations_wrapper">
+                            <img src="img/vacancies/map-point.svg" alt="" class="vacancy__locations_img">
+                            <span class="vacancy__locations_text">Ternopil, Ivano-Frankivsk, Lviv, Remote</span>
+                        </div>
+                        <div class="vacancy__categories_wrapper">
+                            <img src="img/vacancies/category.svg" alt="" class="vacancy__categories_img">
+                            <span class="vacancy__categories_text">Data Science</span>
+                        </div>
+                    </div>
+
+                    <div class="vacancies__vacancy">
+                        <div class="vacancy__head">
+                            <h3 class="vacancy__title">Senior Data Engineer</h3>
+                            <span class="vacancy__status">HOT</span>
+                        </div>
+                        <div class="vacancy__locations_wrapper">
+                            <img src="img/vacancies/map-point.svg" alt="" class="vacancy__locations_img">
+                            <span class="vacancy__locations_text">Remote</span>
+                        </div>
+                        <div class="vacancy__categories_wrapper">
+                            <img src="img/vacancies/category.svg" alt="" class="vacancy__categories_img">
+                            <span class="vacancy__categories_text">Software Engineering, DB\BI</span>
+                        </div>
+                    </div>
+
+                    <div class="vacancies__vacancy">
+                        <div class="vacancy__head">
+                            <h3 class="vacancy__title">Middle Test Automation Engineer (Python)</h3>
+                            <span class="vacancy__status">HOT</span>
+                        </div>
+                        <div class="vacancy__locations_wrapper">
+                            <img src="img/vacancies/map-point.svg" alt="" class="vacancy__locations_img">
+                            <span class="vacancy__locations_text">Lviv, Kyiv, Remote</span>
+                        </div>
+                        <div class="vacancy__categories_wrapper">
+                            <img src="img/vacancies/category.svg" alt="" class="vacancy__categories_img">
+                            <span class="vacancy__categories_text">Quality Assurance, Automation</span>
+                        </div>
+                    </div>
+
+                    <div class="vacancies__vacancy">
+                        <div class="vacancy__head">
+                            <h3 class="vacancy__title">Data Scientist</h3>
+                            <span class="vacancy__status">HOT</span>
+                        </div>
+                        <div class="vacancy__locations_wrapper">
+                            <img src="img/vacancies/map-point.svg" alt="" class="vacancy__locations_img">
+                            <span class="vacancy__locations_text">Ternopil, Ivano-Frankivsk, Lviv, Remote</span>
+                        </div>
+                        <div class="vacancy__categories_wrapper">
+                            <img src="img/vacancies/category.svg" alt="" class="vacancy__categories_img">
+                            <span class="vacancy__categories_text">Data Science</span>
+                        </div>
+                    </div>
+
+                    <div class="vacancies__vacancy">
+                        <div class="vacancy__head">
+                            <h3 class="vacancy__title">Senior Angular Developer</h3>
+                            <span class="vacancy__status">HOT</span>
+                        </div>
+                        <div class="vacancy__locations_wrapper">
+                            <img src="img/vacancies/map-point.svg" alt="" class="vacancy__locations_img">
+                            <span class="vacancy__locations_text">Ternopil, Ivano-Frankivsk, Lviv, Remote</span>
+                        </div>
+                        <div class="vacancy__categories_wrapper">
+                            <img src="img/vacancies/category.svg" alt="" class="vacancy__categories_img">
+                            <span class="vacancy__categories_text">Software Engineering, JavaScript</span>
+                        </div>
+                    </div>
+
+                    <div class="vacancies__vacancy">
+                        <div class="vacancy__head">
+                            <h3 class="vacancy__title">Senior Node.js Developer</h3>
+                            <span class="vacancy__status">HOT</span>
+                        </div>
+                        <div class="vacancy__locations_wrapper">
+                            <img src="img/vacancies/map-point.svg" alt="" class="vacancy__locations_img">
+                            <span class="vacancy__locations_text">Ternopil, Ivano-Frankivsk, Lviv, Remote</span>
+                        </div>
+                        <div class="vacancy__categories_wrapper">
+                            <img src="img/vacancies/category.svg" alt="" class="vacancy__categories_img">
+                            <span class="vacancy__categories_text">Software Engineering, JavaScript</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <ul class="vacancies__pagination">
+                    <li class="vacancies__pagination-item vacancies__pagination-item_active">1</li>
+                    <li class="vacancies__pagination-item">2</li>
+                    <li class="vacancies__pagination-item">3</li>
+                    <li class="vacancies__pagination-item">...</li>
+                    <li class="vacancies__pagination-item">5</li>
+                </ul>
+            </section>
+
+            <section class="refer">
+                <div class="refer-item">
+                    <div class="refer-item__img_wrapper">
+                        <img src="img/vacancies/refer-friend.svg" alt="" class="refer-item__img_img">
+                    </div>
+                    <div class="refer-item__info">
+                        <h3 class="refer-item__title">
+                            Noticed a perfect match for a friend?
+                        </h3>
+                        <span class="refer-item__description">
+                            Get a valuable bonus for a reference
+                        </span>
+                        <button class="refer-item__btn">refer a friend</button>
+                    </div>
+                </div>
+
+                <div class="refer-item">
+                    <div class="refer-item__img_wrapper">
+                        <img src="img/vacancies/cv.svg" alt="" class="refer-item__img_img">
+                    </div>
+                    <div class="refer-item__info">
+                        <h3 class="refer-item__title">
+                            No suitable roles?
+                        </h3>
+                        <span class="refer-item__description">
+                            Submit your CV, we will contact you as soon as we have relevant openings
+                        </span>
+                        <button class="refer-item__btn">refer a friend</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="quiz">
+                <h2 class="quiz__title">
+                    We value your time, that is why you can get your offer, spending less than 2 hours on the interviews
+                </h2>
+
+                <!-- first-step -->
+                <div class="quiz__step quiz__first-step quiz__current-step">
+                    <div class="quiz__pagination">
+
+                        <div class="quiz__pagination-item">
+                            
+                            <div class="quiz__pagination-item-count quiz__pagination-item_active pagination_1">
+                                <img src="img/vacancies/check.svg" alt="&#10003;">
+                            </div>
+                            <span class="quiz__pagination-item_text">Application</span>
+                            
+                            <div class="quiz__pagination-line quiz__pagination-item_active"></div>
+                        </div>
+
+                        
+
+                        <div class="quiz__pagination-item">
+                            <span class="quiz__pagination-item-count pagination_2">2</span>
+                            <span class="quiz__pagination-item_text">Interview</span>
+
+                            <div class="quiz__pagination-line"></div>
+                        </div>
+
+                        
+
+                        <div class="quiz__pagination-item">
+                            <span class="quiz__pagination-item-count pagination_3">3</span>
+                            <span class="quiz__pagination-item_text">Becoming a part of our team</span>
+                        </div>
+                    </div>
+                    <h3 class="quiz__step-title">Application</h3>
+                    <p class="quiz__step-description">
+                        Send your CV, apply via LinkedIn or contact us with a job application. Once we hear from you, our professional recruiter will follow you up via Skype or phone for a small talk. You will get more details about the vacancy, share your expectations, and if everything goes well, we’ll get down to the next steps.
+                    </p>
+                    <p class="quiz__step-description">
+                        We are flexible when it comes to an interview process, so we can either meet in our office or have a talk on Skype - whatever is comfortable for you.
+                    </p>
+                    <button class="quiz__step-next">Next Step</button>
+                </div>
+
+                <!-- second-step -->
+                <div class="quiz__step quiz__second-step">
+                    <div class="quiz__pagination">
+
+                        <div class="quiz__pagination-item">
+                            
+                            <span class="quiz__pagination-item-count quiz__pagination-item_active pagination_1">1</span>
+                            <span class="quiz__pagination-item_text">Application</span>
+                            
+                            <div class="quiz__pagination-line quiz__pagination-item_active"></div>
+                        </div>
+
+                        
+
+                        <div class="quiz__pagination-item">
+                            <div class="quiz__pagination-item-count quiz__pagination-item_active pagination_2">
+                                <img src="img/vacancies/check.svg" alt="&#10003;">
+                            </div>
+                            
+                            <span class="quiz__pagination-item_text">Interview</span>
+
+                            <div class="quiz__pagination-line"></div>
+                        </div>
+
+                        
+
+                        <div class="quiz__pagination-item">
+                            <span class="quiz__pagination-item-count pagination_3">3</span>
+                            <span class="quiz__pagination-item_text">Becoming a part of our team</span>
+                        </div>
+                    </div>
+                    <h3 class="quiz__step-title">Interview</h3>
+                    <p class="quiz__step-description">
+                        <span class="quiz__step-description_bold">Technical Interview:</span> A conversation with one of our technical specialists goes first. They will not only evaluate your skills and knowledge but offer useful recommendations for your personal development if necessary.
+                    </p>
+                    <p class="quiz__step-description">
+                        <span class="quiz__step-description_bold">HR Interview:</span> Following the technical part, you will get a chance to find out more about ELEKS’ life, compensation package and benefits. You will be able to share your motivation and ask all the questions you forgot to ask before. 
+                    </p>
+                    <p class="quiz__step-description">
+                        <span class="quiz__step-description_bold">PM Interview:</span> The last step is a meeting with the Project Manager to talk about the project, team and client. Our PM will make sure the position fits your skill set and you become a perfect match for the team. 
+                    </p>
+                    <button class="quiz__step-next">Next Step</button>
+                </div>
+
+                <!-- third-step -->
+                <div class="quiz__step quiz__third-step">
+                    <div class="quiz__pagination">
+
+                        <div class="quiz__pagination-item">
+                            
+                            <span class="quiz__pagination-item-count quiz__pagination-item_active pagination_1">1</span>
+                            <span class="quiz__pagination-item_text">Application</span>
+                            
+                            <div class="quiz__pagination-line quiz__pagination-item_active"></div>
+                        </div>
+
+                        
+
+                        <div class="quiz__pagination-item">
+                            <span class="quiz__pagination-item-count quiz__pagination-item_active pagination_2">2</span>
+                            
+                            <span class="quiz__pagination-item_text">Interview</span>
+
+                            <div class="quiz__pagination-line"></div>
+                        </div>
+
+                        
+
+                        <div class="quiz__pagination-item">
+                            <div class="quiz__pagination-item-count quiz__pagination-item_active pagination_3">
+                                <img src="img/vacancies/check.svg" alt="&#10003;">
+                            </div>
+                            <span class="quiz__pagination-item_text">Becoming a part of our team</span>
+                        </div>
+                    </div>
+                    <h3 class="quiz__step-title">Becoming a part of our team</h3>
+                    <p class="quiz__step-description">
+                        <span class="quiz__step-description_bold">Technical Interview:</span> A conversation with one of our technical specialists goes first. They will not only evaluate your skills and knowledge but offer useful recommendations for your personal development if necessary.
+                    </p>
+                    <p class="quiz__step-description">
+                        <span class="quiz__step-description_bold">HR Interview:</span> Following the technical part, you will get a chance to find out more about ELEKS’ life, compensation package and benefits. You will be able to share your motivation and ask all the questions you forgot to ask before. 
+                    </p>
+                    <p class="quiz__step-description">
+                        <span class="quiz__step-description_bold">PM Interview:</span> The last step is a meeting with the Project Manager to talk about the project, team and client. Our PM will make sure the position fits your skill set and you become a perfect match for the team. 
+                    </p>
+                    <button class="quiz__step-next">Join Our Team</button>
+                </div>
+
+            </section>
+        </div>
     </main>
 
     <!-- footer -->
@@ -98,5 +550,6 @@
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="js/burger.js"></script>
+    <script type="text/javascript" src="js/vacancies.js"></script>
 </body>
 </html>

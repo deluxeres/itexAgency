@@ -30,7 +30,6 @@ img {
 }
 .container {
     width: 1170px;
-    max-width: 100%;
     margin: auto;
 }
 
@@ -245,7 +244,6 @@ img {
 @media (min-width: 1570px) {
     .container-hero {
         width: 1352px;
-        position: absolute;
     }
 }
 @media (max-width: 1250px) {
@@ -319,6 +317,7 @@ img {
 @media (max-width: 767px) {
     .container {
         width: 325px;
+        max-width: 100%;
     }
     .hero__text {
         width: 100%;
