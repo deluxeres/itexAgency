@@ -203,7 +203,7 @@
     opacity: 0.5;
 }
 .expertise-slider {
-    width: 1170px;
+    width: 100%;
 }
 .slick-dots {
     width: 70px;
@@ -328,4 +328,29 @@
 }
 .reviews-container {
     display: flex;
+}
+@media (max-width: 968px) {
+    .hero {
+        margin-bottom: 0;
+    }
+    .our-services {
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 767px) {
+    .expertise-block {
+        margin: auto;
+    }
+    .form-block__inner {
+        flex-direction: column;
+    }
+    .footer-form__input {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .footer-form__button {
+        width: 100%;
+        margin: 0;
+    }
 }

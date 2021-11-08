@@ -14,10 +14,31 @@ $('.hero__slider').slick({
 $('.expertise-slider').slick({
     arrows: false,
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 300,
-    slidesToShow: 1,
-     adaptiveHeight: true
+    slidesToShow: 4,
+    adaptiveHeight: true,
+    responsive: [
+        {
+            breakpoint: 1250,
+            settings: {
+                slidesToShow: 3,
+            }
+        },
+        {
+            breakpoint: 968,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 1,
+            }
+        }
+    ]
+
 });
 
 $('.slider-section').slick({

@@ -43,7 +43,7 @@
     position: absolute;
     display: block;
     right: 0;
-    top: 0;
+    bottom: 0;
     font: 170px;
     height: 100%;
     width: 170px;
@@ -259,3 +259,4 @@
     background-color: #4582EC;
     color: #fff;
 }
+
