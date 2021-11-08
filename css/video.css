@@ -513,3 +513,81 @@
 .calc-btn-form:hover {
     background-color: #286de4;
 }
+@media (max-width: 1250px) {
+    .tasks-card__description {
+        font-size: 12px;
+        margin-left: 20px;
+    }
+    .tasks-description {
+        font-size: 12px;
+    }
+    .promo-video-block {
+        justify-content: space-between;
+    }
+    .see-more {
+        text-align: center;
+    }
+    .stage-block__container {
+        justify-content: center;
+    }
+    .stage-block {
+        margin-bottom: 70px;
+    }
+}
+@media (max-width: 968px) {
+    .tasks-container {
+        flex-direction: column;
+    }
+    .promo-video-block {
+        justify-content: center;
+    }
+    .price-block__container {
+        justify-content: center;
+    }
+    .user-message {
+        width: 100%;
+    }
+    .calc-form-user__info {
+        flex-direction: column;
+    }
+    .form-user-info, .form-message {
+        width: 100%;
+    }
+    .btn-form {
+        justify-content: center;
+    }
+}
+@media (max-width: 767px) {
+    .tasks-block__left {
+        width: auto;
+        margin-right: 0;
+    }
+    .video-container {
+        height: auto;
+        width: 100%;
+    }
+    .promo-video, .stage-work-section {
+        margin-top: 80px;
+    }
+    .promo-video__card {
+        margin-right: 0;
+    }
+    .stage-block {
+        width: 100%;
+        flex-direction: column;
+    }
+    .stage-block-title, .stage-block-description {
+        width: 100%;
+        height: auto;
+    }
+    .number-step_img {
+        margin-bottom: 20px;
+    }
+    .calc-form__block {
+        height: auto;
+        padding: 30px;
+    }
+    .form-message {
+        height: 100px;
+    }
+}
