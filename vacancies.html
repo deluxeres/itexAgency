@@ -111,26 +111,34 @@
             <section class="vacancies">
                 <h2 class="vacancies__title">Vacancies</h2>
                 <form action="#" class="vacancies__filter">
-                    <img src="img/vacancies/category.svg" alt="" class="vacancies__filter_select-img">
-                    <select name="categories" size="1" class="vacancies__filter_select">
-                        <option value="" selected>All Categories</option>
-                        <option value="">Software Engineering</option>
-                        <option value="">JavaScript</option>
-                        <option value="">Quality Assurance</option>
-                        <option value="">Automation</option>
-                    </select>
+                    <div class="vacancies__filter-selects">
+                        <div class="vacancies__filter_select_wrapper">
+                            <img src="img/vacancies/category.svg" alt="" class="vacancies__filter_select-img">
+                            <select name="categories" size="1" class="vacancies__filter_select">
+                                <option value="" selected>All Categories</option>
+                                <option value="">Software Engineering</option>
+                                <option value="">JavaScript</option>
+                                <option value="">Quality Assurance</option>
+                                <option value="">Automation</option>
+                            </select>
+                        </div>
+                        <div class="vacancies__filter_select-border"></div>
+                        <div class="vacancies__filter_select_wrapper">
+                            <img src="img/vacancies/map-point.svg" alt="" class="vacancies__filter_select-img">
+                            <select name="categories" size="1" class="vacancies__filter_select">
+                                <option value="" selected>All Locations</option>
+                                <option value="">Kyiv</option>
+                                <option value="">Lviv</option>
+                                <option value="">Remote</option>
+                                <option value="">Ternopil</option>
+                            </select>
+                        </div>
+                    </div>
                     <div class="vacancies__filter_select-border"></div>
-                    <img src="img/vacancies/map-point.svg" alt="" class="vacancies__filter_select-img">
-                    <select name="categories" size="1" class="vacancies__filter_select">
-                        <option value="" selected>All Locations</option>
-                        <option value="">Kyiv</option>
-                        <option value="">Lviv</option>
-                        <option value="">Remote</option>
-                        <option value="">Ternopil</option>
-                    </select>
-                    <div class="vacancies__filter_select-border"></div>
-                    <img src="img/vacancies/search.svg" alt="" class="vacancies__filter_select-img">
-                    <input type="text" placeholder="Search for Vacancies" class="vacancies__filter_input">
+                    <div class="vacancies__filter-input_wrapper">
+                        <img src="img/vacancies/search.svg" alt="" class="vacancies__filter_select-img">
+                        <input type="text" placeholder="Search for Vacancies" class="vacancies__filter_input">
+                    </div>
                     <button type="submit" class="vacancies__filter_submit">Submint</button>
                 </form>
                 <div class="vacancies__list">

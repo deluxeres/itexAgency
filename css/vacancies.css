@@ -259,4 +259,85 @@
     background-color: #4582EC;
     color: #fff;
 }
+@media (max-width: 1250px) {
+    .refer {
+        justify-content: center;
+    }
+    .refer-item {
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 968px) {
+    .vacancies__list {
+        justify-content: center;
+    }
+    .quiz__pagination-item:nth-child(1) {
+        margin-right: 135px;
+    }
+    .quiz__pagination-item:nth-child(2) {
+        margin-right: 40px;
+    }
+    .quiz__pagination-line {
+        width: 210px;
+    }
+    .vacancies__filter {
+        flex-direction: column;
+        height: auto;
+        padding: 24px;
 
+    }
+    .vacancies__filter_submit {
+        position: static;
+        height: 54px;
+        border-radius: 4px;
+        align-self: flex-end;
+    }
+    .vacancies__filter-selects {
+        display: flex;
+    }
+    .vacancies__filter > .vacancies__filter_select-border {
+        width: 100%;
+        height: 1px;
+        margin: 10px 0;
+    }
+    .vacancies__filter-input_wrapper {
+        display: flex;
+        width: 370px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .vacancies__filter_input {
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .quiz__pagination {
+        flex-direction: column;
+    }
+    .quiz__pagination-item {
+        margin-right: 0px !important;
+        margin-bottom: 30px;
+    }
+    .quiz__pagination-line {
+        display: none;
+    }
+    .refer-item {
+        flex-direction: column;
+        align-items: center;
+    }
+    .vacancies__filter-selects {
+        flex-direction: column;
+    }
+    .vacancies__filter_select-border {
+        width: 170px !important;
+        height: 1px;
+        margin: 10px 0;
+    }
+    .vacancies__filter_submit {
+        width: 100%;
+    }
+    .vacancies__filter-input_wrapper {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+}
