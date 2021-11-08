@@ -101,7 +101,7 @@
         flex-direction: column;
     }
     .hero-text {
-        width: 600px;
+        width: 100%;
         margin: auto;
     }
 

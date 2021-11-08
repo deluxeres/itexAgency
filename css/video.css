@@ -383,12 +383,14 @@
     width: 180px;
 }
 .accordion {
+    position: relative;
     margin-top: 30px;
     background-color: #EDF3FE;
     color: #2F2F2F;
     cursor: pointer;
     height: 80px;
     padding: 18px;
+    padding-left: 80px;
     width: 100%;
     border: none;
     text-align: left;
@@ -404,15 +406,27 @@
 .active {
     background-color: rgb(255, 255, 255);
 }
-.accordion:after {
-    content: '\002B';
+.accordion::before {
+    position: absolute;
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #4582EC;
+    left: 30px;
+    top: 32px;
+}
+.accordion::after {
+    font-family: 'Poppins';
+    content: '+';
     color: #8FB4F4;
-    font-weight: bold;
+    font-weight: 200;
     float: right;
     margin-left: 5px;
+    font-size: 55px;
 }
-.active:after {
-    content: "\2212";
+.active::after {
+    content: "-";
 }
 .panel {
     padding: 0 18px;
