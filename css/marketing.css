@@ -220,7 +220,7 @@
     border-radius: 20px;
     justify-content: center;
     align-items: center;
-    width: 270px;
+    width: 100%;
     height: 195px;
     transition: 0.3s;
 }
@@ -240,7 +240,7 @@
     width: 100%;
 }
 .slick-dots {
-    width: 70px;
+    width: 120px;
     display: flex;
     position: static;
     margin: 0 auto;
