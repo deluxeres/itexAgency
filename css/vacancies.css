@@ -28,6 +28,10 @@
     margin-right: 23px;
     margin-left: 19px;
 }
+.vacancies__filter-selects {
+    display: flex;
+    align-items: center;
+}
 .vacancies__filter_select {
     background-color: #fff;
     border: none;
