@@ -32,6 +32,10 @@
     display: flex;
     align-items: center;
 }
+.vacancies__filter_select_wrapper {
+    display: flex;
+    align-items: center;
+}
 .vacancies__filter_select {
     background-color: #fff;
     border: none;
@@ -144,6 +148,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 150px;
 }
 .refer-item {
     width: 570px;
