@@ -117,5 +117,28 @@ $('.reviews-slider').slick({
     dots: true,
     infinite: true,
     slidesToShow: 3,
-    adaptiveHeight: true
+    adaptiveHeight: true,
+    responsive: [
+        {
+            breakpoint: 1250,
+            settings: {
+                slidesToShow: 3,
+                centerPadding: '50px',
+            }
+        },
+        {
+            breakpoint: 968,
+            settings: {
+                slidesToShow: 1,
+                centerPadding: '200px',
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 1,
+                centerPadding: '0px',
+            }
+        }
+    ]
 });
