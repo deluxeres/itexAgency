@@ -38,10 +38,10 @@
 }
 .vacancies__filter_select {
     background-color: #fff;
-    border: none;
-    -o-border: none;
-    -moz-border: none;
-    -webkit-border: none;
+    border: 1px solid #fff;
+    -o-border: 1px solid #fff;
+    -moz-border: 1px solid #fff;
+    -webkit-border: 1px solid #fff;
     outline: none;
     -o-outline: none;
     -moz-outline: none;
