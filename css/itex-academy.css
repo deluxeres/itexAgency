@@ -207,13 +207,17 @@
 .btn-explore {
     text-align: center;
 }
+.portfolio-logo img {
+    border-radius: 20px
+}
 .btn-explore a {
     background-color: #4582EC;
     color: #fff;
     font-size: 16px;
     font-weight: 400;
-    padding: 11px 28px 11px 28px;
+    padding: 15px 30px 15px 30px;
     transition: 0.3s;
+    border-radius: 4px;
 }
 .btn-explore a:hover {
     background-color: #2a6de0;
@@ -286,7 +290,7 @@ div.slick-active {
     opacity: 1 !important;
 }
 .portfolio-logo {
-    margin: 0 20px 0 20px;
+    margin: 0 10px 0 10px;
 }
 .slick-dots {
     margin-top: 60px;
@@ -308,6 +312,7 @@ div.slick-active {
     margin-top: 150px;
 }
 .feedback-block {
+    margin-bottom: 60px;
     display: flex;
     width: 570px;
     height: 220px;

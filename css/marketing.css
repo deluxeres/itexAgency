@@ -10,6 +10,11 @@
     left: -168px;
     top: -146.56px;
 }
+.hero__title {
+    color: #4582EC;
+    font-size: 36px;
+    font-weight: 700;
+}
 .bg-shape-2 {
    position: absolute;
    left: 150px;
@@ -74,7 +79,8 @@
     height: 100px;
 }
 .order-pr {
-    background-color: #EDF3FE;
+    margin-top: 80px;
+    background-color: #FBFDFF;
     width: 100%;
     /* height: 760px; */
     margin-bottom: 100px;
