@@ -3,13 +3,39 @@ $('.hero__slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     dots: true,
-    autoplay: true,
-    autoplaySpeed: 5000, 
     arrows: false,
     vertical: true,
     swipe: true,
     verticalSwiping: true,
 });
+$('#web-development').mouseover(function() {
+    $('.hero__slider').slick('slickGoTo', 0)
+})
+$('#marketing').mouseover(function() {
+    $('.hero__slider').slick('slickGoTo', 1)
+})
+$('#video').mouseover(function() {
+    $('.hero__slider').slick('slickGoTo', 2)
+})
+$('.hero__slider').on('afterChange', function() {
+    switch ($('.slick-dots > .slick-active  > button').attr('aria-label')) {
+        case '1 of 3':
+            $('#marketing').removeClass('hero__anchor_general');
+            $('#video').removeClass('hero__anchor_general');
+            $('#web-development').addClass('hero__anchor_general');
+            break;
+        case '2 of 3':
+            $('#web-development').removeClass('hero__anchor_general');
+            $('#video').removeClass('hero__anchor_general');
+            $('#marketing').addClass('hero__anchor_general');
+            break;
+        case '3 of 3':
+                $('#web-development').removeClass('hero__anchor_general');
+                $('#marketing').removeClass('hero__anchor_general');
+                $('#video').addClass('hero__anchor_general');
+                break;    
+    }
+})
 
 $('.expertise-slider').slick({
     arrows: false,
