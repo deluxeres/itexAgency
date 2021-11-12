@@ -7,8 +7,9 @@
     justify-content: center;
 }
 .bg-shape {
-    left: 0;
-    top: -149px;
+    right: 0;
+    top: -300px;
+    height: 876px;
 }
 .bg-shape-2 {
    position: absolute;

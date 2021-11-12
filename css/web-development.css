@@ -1,3 +1,14 @@
+.header {
+    margin-bottom: 0;
+}
+.main {
+    padding-top: 110px;
+}
+.bg-shape {
+    top: -105px;
+    right: -100px;
+    height: 1000px;
+}
 .our-services {
     margin-bottom: 100px;
 }
@@ -276,10 +287,6 @@
 }
 .hero {
     margin-bottom: 170px;
-}
-.bg-shape {
-    top: 0px;
-    right: -100px
 }
 .reviews-user__name {
     display: block;
