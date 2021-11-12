@@ -17,23 +17,35 @@ $('#marketing').mouseover(function() {
 $('#video').mouseover(function() {
     $('.hero__slider').slick('slickGoTo', 2)
 })
+$('#blockchain').mouseover(function() {
+    $('.hero__slider').slick('slickGoTo', 3)
+})
 $('.hero__slider').on('afterChange', function() {
     switch ($('.slick-dots > .slick-active  > button').attr('aria-label')) {
-        case '1 of 3':
+        case '1 of 4':
             $('#marketing').removeClass('hero__anchor_general');
             $('#video').removeClass('hero__anchor_general');
+            $('#blockchain').removeClass('hero__anchor_general');
             $('#web-development').addClass('hero__anchor_general');
             break;
-        case '2 of 3':
+        case '2 of 4':
             $('#web-development').removeClass('hero__anchor_general');
             $('#video').removeClass('hero__anchor_general');
+            $('#blockchain').removeClass('hero__anchor_general');
             $('#marketing').addClass('hero__anchor_general');
             break;
-        case '3 of 3':
+        case '3 of 4':
                 $('#web-development').removeClass('hero__anchor_general');
                 $('#marketing').removeClass('hero__anchor_general');
+                $('#blockchain').removeClass('hero__anchor_general');
                 $('#video').addClass('hero__anchor_general');
                 break;    
+            case '4 of 4':
+                $('#web-development').removeClass('hero__anchor_general');
+                $('#marketing').removeClass('hero__anchor_general');
+                $('#video').removeClass('hero__anchor_general');
+                $('#blockchain').addClass('hero__anchor_general');
+                break; 
     }
 })
 
